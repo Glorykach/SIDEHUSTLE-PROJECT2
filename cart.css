@@ -1,0 +1,159 @@
+@import url('https://fonts.cdnfonts.com/css/mulish');
+@import url('https://fonts.cdnfonts.com/css/baloo-bhai');
+
+@font-face {
+    font-family: 'Mulish'; 
+    src: url(https://fonts.cdnfonts.com/css/mulish);
+}
+@font-face {
+    font-family: 'Baloo Bhai'; 
+    src: url(https://fonts.cdnfonts.com/css/baloo-bhai);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFFFF;
+    
+}
+.side-navbar {
+    width: 90px;
+    height: 100%;
+    position: fixed;
+    margin-left: -300px;
+    background-color: #100901;
+    transition: 0.5s;
+    border-radius: 20px;
+    z-index: 1;
+  }
+  .display-5{
+    font-family:'Mulish';
+    color: #000000;
+    border-bottom: 5px solid #F1D5BB;
+    ;
+    width: 13%;
+}
+  
+  .my-container {
+    transition: 0.4s;
+    
+  }
+  
+  .active-nav {
+    margin-left: 0;
+  }
+  .active-cont {
+    margin-left: 105px;
+  }
+  
+  #menu-btn {
+    color: #fff;
+    margin-left: -80px;
+    position: fixed;
+    padding: 3rem;
+    z-index: 1;
+    
+  }
+  
+  .active{
+    background: #F1D5BB;
+    position: relative;
+    right: 13%;
+    top: 150px;
+    width: 71.5%;
+    height: 70px;
+    
+  }
+  .my-2{
+    position: relative;
+    left: 17%;
+    top: 10px;
+    font-family: 'Baloo Bhai';
+    font-weight: 400;
+    font-size: 3rem;
+    color:#F1D5BB;
+  }
+  .mx-1{
+    position: relative;
+    left: 8%;
+    top: 40px;
+  }
+  .mx-2{
+    position: relative;
+    left: 6%;
+    top: 100px;
+  }
+  .mx-3{
+    position: relative;
+    left: -1%;
+    top: 13px;
+  }
+  .mx-4{
+    position: relative;
+    right: 7%;
+    top: 190px;
+  }
+  .mx-5{
+    position: relative;
+    right: 25%;
+    top: 240px;
+  }
+  .p-5{
+      border-radius: 0px;
+  }
+  .first{
+    background-color: #F1D5BB;
+  }
+  
+  .col-lg-8{
+    background-color: #F1D5BB;
+
+  }
+.text-center{
+    position: relative;
+    right: 14%;
+    font-size: 0.9rem;
+    font-family: 'Mulish';
+    
+  }
+  footer{
+    position: relative;
+    top: 200px;
+    background-color: #FFFFFF;
+   
+  }
+  .bg-white{
+    border-left: grey 1px solid;
+  }
+  .form-control{
+    border-color: #F1D5BB;
+  }
+  .mb-0, .mb-3{
+    font-family: 'Mulish';
+  }
+  .form-outline{
+    font-family: 'Mulish';
+  }
+  .h3{
+    font-family: 'Mulish';
+  }
+  .h2{
+    font-family: 'Mulish';
+    font-size: 1.8rem;
+  }
+  .btn{
+    font-family: 'Mulish';
+    border-radius: 0px;
+  }
+  @media (max-width: 992px) {
+    .bg-white{
+      border-top: grey 1px solid;
+      border-left:none ;
+    }
+  }
+
+  

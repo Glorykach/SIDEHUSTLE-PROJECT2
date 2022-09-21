@@ -1,0 +1,59 @@
+@import url('https://fonts.cdnfonts.com/css/mulish');
+@font-face {
+    font-family: 'Mulish'; 
+    src: url(https://fonts.cdnfonts.com/css/mulish);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("./images/restaurant\ 1.png") no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.display-5 {
+  color: #FFFFFF;
+  font-family:'Mulish';
+}
+.lead {
+  color: #FFFFFF;
+  font-family: 'Mulish';
+  color: #FFFFFF;
+
+}
+.btn{
+  background-color: #FFFFFF;
+  color:#000000;
+  font-family: 'Mulish';
+  border: none;
+  border-radius: 0px;
+  }
+  .arrow {
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 6px;
+    cursor: pointer;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    position: relative;
+    top: -35px;
+    left: 45%;
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    position: relative;
+    top: -35px;
+    left: -45%;
+  }
